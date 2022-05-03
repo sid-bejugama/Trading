@@ -7,7 +7,7 @@ import xlsxwriter
 import math
 from secrets import IEX_CLOUD_API_TOKEN
 
-# equal weighting algorithm for S&P500 stocks
+# algorithm that weights S&P500 stocks equally regardless of market capitalization 
 
 stocks = pd.read_csv('sp_500_stocks.csv')
 symbol = 'AAPL'
