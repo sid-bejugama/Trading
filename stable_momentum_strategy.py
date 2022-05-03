@@ -8,7 +8,7 @@ from statistics import mean
 import xlsxwriter
 from secrets import IEX_CLOUD_API_TOKEN
 
-#stable momentum strategy algorithm
+# algorithm that weights portfolio by stocks with high, stable momentum
 
 stocks = pd.read_csv('sp_500_stocks.csv')
 
